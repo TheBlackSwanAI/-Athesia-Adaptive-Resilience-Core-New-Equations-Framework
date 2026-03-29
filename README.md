@@ -4,8 +4,7 @@ new equations framework extends the original Athesia Adaptive Resilience Core us
 
 The new equations framework extends the original Athesia Adaptive Resilience Core using only public-domain, non-patented scientific principles (classical physics, control theory, chemistry, ecology/mathematics) to illustrate broader resilience and self-healing applications.
 
-- **Damped Harmonic Oscillator** (physics)  
-  \(\ddot{x} + 2\zeta\omega_n \dot{x} + \omega_n^2 x = 0\)  
+- **Damped Harmonic Oscillator** 
   → Maps to recovery budget 
 - **Sigmoid-Gated PID** (control theory)  
   

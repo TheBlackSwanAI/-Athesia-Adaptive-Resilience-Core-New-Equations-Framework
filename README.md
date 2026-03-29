@@ -6,14 +6,13 @@ The new equations framework extends the original Athesia Adaptive Resilience Cor
 
 - **Damped Harmonic Oscillator** (physics)  
   \(\ddot{x} + 2\zeta\omega_n \dot{x} + \omega_n^2 x = 0\)  
-  → Maps to recovery budget dynamics; ζ acts as resilience damping rate after exceedance.
-
+  → Maps to recovery budget 
 - **Sigmoid-Gated PID** (control theory)  
-  \(u(t) = G(B) \cdot (K_p E(t) + K_i \int_0^t E(s)\,ds + K_d \dot{E}(t))\)  
+  
   → Extends Athesia's authority gating; sigmoid \(G(B)\) throttles corrections under low resilience budget.
 
 - **Le Chatelier Rate Dynamics** (chemistry)  
-  \(\frac{d[A]}{dt} = k_f [A] - k_r [B]\)  
+  
   → Analog for equilibrium-based damage mitigation and recovery inflow/outflow balance.
 
 - **Lotka-Volterra Mode Competition** (ecology/mathematics)  
